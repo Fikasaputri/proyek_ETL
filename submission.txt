@@ -1,0 +1,12 @@
+# Cara menjalankan skrip ETL pipeline
+Jalankan perintah berikut untuk menjalankan seluruh proses ETL (Extract, Transform, Load):
+python3 main.py
+
+# Cara menjalankan unit test
+Untuk menjalankan unit test pada semua modul ETL yang telah dibuat, gunakan perintah berikut:
+python3 -m unittest discover -s tests
+
+# Cara menjalankan test coverage
+Untuk menjalankan test coverage dan melihat persentase cakupan pengujian pada kode:
+coverage run --source=. -m unittest discover -s tests
+coverage report -m
